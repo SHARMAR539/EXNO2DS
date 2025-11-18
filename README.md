@@ -81,10 +81,16 @@ sns.countplot(data=v,x="Survived")
 v
 ```
 <img width="852" height="315" alt="image" src="https://github.com/user-attachments/assets/7f775a45-4d88-456c-8d89-ba991af5fecf" />
+
+
 ```
 v.Pclass.unique()
 ```
+
+
 <img width="352" height="53" alt="image" src="https://github.com/user-attachments/assets/962d6818-b761-4281-b5fd-0ab8f63d3d1c" />
+
+
 
 ```
 v.rename(columns={'sex':'Gender'},inplace=True)
